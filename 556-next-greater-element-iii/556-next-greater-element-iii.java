@@ -1,5 +1,6 @@
 class Solution {
     public int nextGreaterElement(int n) {
+      
         char num [] = (n + "").toCharArray();
         int i,j;
         for (i = num.length-1; i > 0 ; i--) {
