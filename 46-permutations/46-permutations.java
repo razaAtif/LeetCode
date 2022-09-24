@@ -14,7 +14,7 @@ class Solution {
                 list.add(nums[i]);
             }
             
-            ans.add(new ArrayList<>(list));
+            ans.add(list);
             return;
         }
         
