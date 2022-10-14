@@ -15,8 +15,7 @@ class Solution {
         ListNode last = start;
         ListNode fast = start;
         ListNode first = start;
-        ListNode firstPrev = null;
-        
+       
         for(int i = 1; i <= k-1; i++){
             fast = fast.next;
         }
